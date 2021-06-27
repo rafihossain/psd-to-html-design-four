@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {}
+
+.wrapper_full {
+    width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+@font-face {
+    font-family: Dosis-Bold;
+    src: url(../fonts/Dosis/Dosis-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Thin;
+    src: url(../fonts/Lato/Lato-Thin.ttf);
+}
+
+/* menu part start */
+.menu_part {
+    background: #f6f9f9;
+    width: 100%;
+}
+
+.logo {
+    width: 165px;
+    margin: 0px 10px;
+    float: left;
+}
+
+.logo a img {
+    padding: 10px 0px 10px;
+}
+
+.menu {
+
+    width: 650px;
+    margin: 0px 15px;
+    float: left;
+    padding: 24px 0px;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.menu ul li a {
+    color: #252525;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* menu part end */
+/* bannar part start */
+.bannar_part {
+    width: 100%;
+    background: url(../images/bannar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper h1 {
+    font-size: 120px;
+    text-align: center;
+    font-family: Lato-Bold;
+    padding-top: 210px;
+    color: #ffff;
+    position: relative;
+}
+
+.wrapper h1::before {
+    position: absolute;
+    content: "";
+    width: 600px;
+    height: 1px;
+    bottom: 0;
+    left: 170px;
+    background: #15a5fa;
+}
+
+.wrapper p {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 40px;
+    font-family: Lato-Regular;
+}
+
+.wrapper .button {
+    text-align: center;
+}
+
+.wrapper .button a {
+    display: inline-block;
+    border: 1px solid #15a5fa;
+    padding: 20px 35px;
+    margin-top: 65px;
+    font-family: Lato-Regular;
+    color: #fffd;
+}
+
+.wrapper .icon {
+    text-align: center;
+}
+
+.wrapper .icon i {
+    display: inline-block;
+    color: #fffd;
+    font-size: 35px;
+    padding-top: 180px;
+    padding-bottom: 90px;
+}
+
+/* bannar part end */
+/* text part start */
+.degin_part {
+    width: 100%;
+    background: #f6f9f9;
+    height: 300px;
+}
+
+.wrapper h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Lato-Regular;
+    color: #2d3950;
+    padding-top: 80px;
+}
+
+.wrapper .para {
+    text-align: center;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: #999999;
+}
+
+/* text part end */
+/* degin part start */
+.wrapper .degin_one {
+    width: 320px;
+    height: 300px;
+    float: left;
+}
+
+.wrapper .degin_two {
+    width: 320px;
+    height: 300px;
+    float: left;
+}
+
+.degin_one1 .box {
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.degin_one1 .box .box1 {
+    width: 50%;
+    height: 100%;
+    background: #48baff;
+    float: left;
+}
+
+.degin_one1 .box .box2 {
+    width: 50%;
+    height: 100%;
+    background: #5fc3ff;
+    float: left;
+    position: relative;
+}
+
+.degin_one1 .box .mobail {
+    position: absolute;
+    content: "";
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.degin_one1 .box .mobail i {
+    font-size: 70px;
+    color: #fff;
+}
+
+.degin_one1 h5 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: Lato-Regular;
+    color: #2d3950;
+}
+
+.degin_one1 p {
+    text-align: center;
+    color: #999999;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    margin: 25px 30px;
+}
+
+.wrapper .degin_three {
+    width: 320px;
+    height: 300px;
+    float: left;
+}
+
+.wrapper .degin_three {
+    width: 320px;
+    height: 300px;
+    float: left;
+}
+
+.degin_one2 .box {
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.degin_one2 .box .box1 {
+    width: 50%;
+    height: 100%;
+    background: #48baff;
+    float: left;
+}
+
+.degin_one2 .box .box2 {
+    width: 50%;
+    height: 100%;
+    background: #5fc3ff;
+    float: left;
+    position: relative;
+}
+
+.degin_one2 .box .mobail {
+    position: absolute;
+    content: "";
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.degin_one2 .box .mobail i {
+    font-size: 70px;
+    color: #fff;
+}
+
+.degin_one2 h5 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: Lato-Regular;
+    color: #2d3950;
+}
+
+.degin_one2 p {
+    text-align: center;
+    color: #999999;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    margin: 25px 30px;
+}
+
+.degin_one .box {
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.degin_one .box .box1 {
+    width: 50%;
+    height: 100%;
+    background: #48baff;
+    float: left;
+}
+
+.degin_one .box .box2 {
+    width: 50%;
+    height: 100%;
+    background: #5fc3ff;
+    float: left;
+    position: relative;
+}
+
+.degin_one .box .mobail {
+    position: absolute;
+    content: "";
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.degin_one .box .mobail i {
+    font-size: 70px;
+    color: #fff;
+}
+
+.degin_one h5 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: Lato-Regular;
+    color: #2d3950;
+}
+
+.degin_one p {
+    text-align: center;
+    color: #999999;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    margin: 25px 30px;
+}
+
+/* degin part end */
+/* gallary part start */
+
+.gallary_part {
+    width: 100%;
+    height: 600px;
+    background: #f6f9f9;
+    margin-top: 50px;
+}
+
+.wrapper h6 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Lato-Regular;
+    color: #2d3950;
+    padding-top: 80px;
+}
+
+.wrapper .work {
+    text-align: center;
+    font-size: 15px;
+    font-family: Lato-Regular;
+    color: #2d3950;
+    margin-top: 20px;
+
+}
+
+.row1 {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.row1 .one {
+    width: 300px;
+    height: 100%;
+    background: url(../images/galllary1.jpg);
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.row1 .one .overlay {
+    width: 0;
+    height: 100%;
+    background: rgba(41, 162, 240, 0.9);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.row1 .one:hover .overlay {
+    opacity: 1;
+    width: 100%;
+}
+
+.row1 .one .overlay .icon2 {
+    padding-top: 80px;
+    margin-left: 150px;
+}
+
+.row1 .one .overlay .icon2 i {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.row1 .two {
+    width: 300px;
+    height: 100%;
+    background: url(../images/gallary.jpg);
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.row1 .two .overlay {
+    width: 100%;
+    height: 0;
+    background: rgba(41, 162, 240, 0.9);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.row1 .two:hover .overlay {
+    opacity: 1;
+    height: 100%;
+}
+
+.row1 .two .overlay .icon2 {
+    padding-top: 80px;
+    margin-left: 150px;
+}
+
+.row1 .two .overlay .icon2 i {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.row1 .three {
+    width: 300px;
+    height: 100%;
+    background: url(../images/gallary1.jpg);
+    float: left;
+    position: relative;
+}
+
+.row1 .three .overlay {
+    width: 100%;
+    height: 0;
+    background: rgba(41, 162, 240, 0.9);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.row1 .three:hover .overlay {
+    opacity: 1;
+    height: 100%;
+}
+
+.row1 .three .overlay .icon2 {
+    padding-top: 80px;
+    margin-left: 150px;
+}
+
+.row1 .three .overlay .icon2 i {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.row2 {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.row2 .one {
+    width: 300px;
+    height: 100%;
+    background: url(../images/gallary2.jpg);
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.row2 .one .overlay {
+    width: 100%;
+    height: 0;
+    background: rgba(41, 162, 240, 0.9);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.row2 .one:hover .overlay {
+    opacity: 1;
+    height: 100%;
+}
+
+.row2 .one .overlay .icon2 {
+    padding-top: 80px;
+    margin-left: 150px;
+}
+
+.row2 .one .overlay .icon2 i {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.row2 .two {
+    width: 300px;
+    height: 100%;
+    background: url(../images/gallary3.jpg);
+    margin-right: 30px;
+    float: left;
+    position: relative;
+}
+
+.row2 .two .overlay {
+    width: 100%;
+    height: 0;
+    background: rgba(41, 162, 240, 0.9);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.row2 .two:hover .overlay {
+    opacity: 1;
+    height: 100%;
+}
+
+.row2 .two .overlay .icon2 {
+    padding-top: 80px;
+    margin-left: 150px;
+}
+
+.row2 .two .overlay .icon2 i {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.row2 .three {
+    width: 300px;
+    height: 100%;
+    background: url(../images/gallary4.jpg);
+    float: left;
+    position: relative;
+}
+
+
+.row2 .three .overlay {
+    width: 100%;
+    height: 0;
+    background: rgba(41, 162, 240, 0.9);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.row2 .three:hover .overlay {
+    opacity: 1;
+    height: 100%;
+}
+
+.row2 .three .overlay .icon2 {
+    padding-top: 80px;
+    margin-left: 150px;
+}
+
+.row2 .three .overlay .icon2 i {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+/* gallary part end */
+/* from part start */
+.from_part {
+    background: url(../images/from.jpg);
+    height: auto;
+    margin-top: 100px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.from_part .overlay {
+    background: rgba(43, 57, 74, 0.9);
+    height: auto;
+}
+
+.wrapper h4 {
+    text-align: center;
+    font-size: 41px;
+    color: #fff;
+    font-family: Lato-Regular;
+    padding-top: 80px;
+}
+
+.wrapper p {
+    text-align: center;
+    color: #999999;
+    font-size: 15px;
+    font-family: Lato-Regular;
+    margin-top: 10px;
+}
+
+.wrapper .input {
+    text-align: center;
+}
+
+.wrapper .input input {
+    background: none;
+    border: 1px solid #999999;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.wrapper .input textarea {
+    background: none;
+    border: 1px solid #999999;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.wrapper label {
+    color: #fff;
+    font-size: 15px;
+    font-family: Lato-Regular;
+    margin-left: 8px;
+}
+
+.wrapper .button {
+    border: 1px solid #48baff;
+    padding: 10px 25px;
+    background: none;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 110px;
+}
+
+/* from part end */
+/* footer part start */
+.footer_part {
+    width: 100%;
+    background: #f6f9f9;
+}
+
+.wrapper .copy {
+    width: 50%;
+    float: left;
+}
+
+.wrapper .copy h4 {
+    float: left;
+    padding: 35px 0px;
+    color: #999999;
+    font-size: 15px;
+    font-family: Lato-Regular;
+}
+
+.wrapper .icons {
+    width: 50%;
+    float: left;
+}
+
+.wrapper .icons ul {
+    float: right;
+}
+
+.wrapper .icons ul li {
+    float: left;
+    margin-left: 10px;
+    padding: 20px 0px;
+}
+
+.wrapper .icons ul li i {
+    padding: 12px;
+    background: #15a4fa;
+    border-radius: 3px;
+    color: #fff;
+}
+
+/* footer part end */
